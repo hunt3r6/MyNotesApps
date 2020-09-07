@@ -1,4 +1,4 @@
-package co.id.bismalabs.mynotesapp.db
+package co.id.bismalabs.consumerapp.db
 
 import android.net.Uri
 import android.provider.BaseColumns

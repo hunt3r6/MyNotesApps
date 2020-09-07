@@ -1,4 +1,4 @@
-package co.id.bismalabs.mynotesapp
+package co.id.bismalabs.consumerapp
 
 import android.content.ContentValues
 import android.content.Intent
@@ -10,12 +10,12 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import co.id.bismalabs.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import co.id.bismalabs.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import co.id.bismalabs.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
-import co.id.bismalabs.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TITLE
-import co.id.bismalabs.mynotesapp.entity.Note
-import co.id.bismalabs.mynotesapp.helper.MappingHelper
+import co.id.bismalabs.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import co.id.bismalabs.consumerapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import co.id.bismalabs.consumerapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
+import co.id.bismalabs.consumerapp.db.DatabaseContract.NoteColumns.Companion.TITLE
+import co.id.bismalabs.consumerapp.entity.Note
+import co.id.bismalabs.consumerapp.helper.MappingHelper
 import kotlinx.android.synthetic.main.activity_note_add_update.*
 import java.text.SimpleDateFormat
 import java.util.*
